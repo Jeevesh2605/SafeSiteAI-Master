@@ -1,0 +1,77 @@
+{
+    "frame_id": "20251112_100849_Manufacturing_Plant_Video_Generation.mp4_frame_00001",
+    "video_id": "20251112_100849_Manufacturing_Plant_Video_Generation.mp4",
+    "frame_number": 1,
+    "detections": [
+      {
+        "bbox": [293.109436035156, 231.397094726563, 498.422790527344, 582.1953125],
+        "confidence": 0.926422774791718,
+        "class_id": 2,
+        "label": "suit"
+      },
+      {
+        "bbox": [784.399963378906, 307.569030761719, 917.672180175781, 524.445129394531],
+        "confidence": 0.921382069587708,
+        "class_id": 2,
+        "label": "suit"
+      },
+      {
+        "bbox": [214.528778076172, 170.873046875, 311.864776611328, 290.431213378906],
+        "confidence": 0.906483948230743,
+        "class_id": 0,
+        "label": "helmet"
+      },
+      {
+        "bbox": [283.798706054688, 87.218620300293, 422.072814941406, 253.77197265625],
+        "confidence": 0.894573092460632,
+        "class_id": 0,
+        "label": "helmet"
+      },
+      {
+        "bbox": [515.45556640625, 219.545394897461, 583.06982421875, 298.701416015625],
+        "confidence": 0.892516195774078,
+        "class_id": 0,
+        "label": "helmet"
+      },
+      {
+        "bbox": [471.741821289063, 283.648559570313, 564.500366210938, 454.694030761719],
+        "confidence": 0.873140931129456,
+        "class_id": 2,
+        "label": "suit"
+      },
+      {
+        "bbox": [234.269104003906, 266.009002685547, 344.310485839844, 458.223663330078],
+        "confidence": 0.803930640220642,
+        "class_id": 2,
+        "label": "suit"
+      },
+      {
+        "bbox": [834.528686523438, 225.698364257813, 911.002319335938, 312.852416992188],
+        "confidence": 0.719377875328064,
+        "class_id": 1,
+        "label": "no_helmet"
+      },
+      {
+        "bbox": [676.299255371094, 305.436004638672, 740.185241699219, 408.738922119141],
+        "confidence": 0.692864060401917,
+        "class_id": 2,
+        "label": "suit"
+      },
+      {
+        "bbox": [693.803833007813, 263.056091308594, 726.507446289063, 306.875671386719],
+        "confidence": 0.648127198219299,
+        "class_id": 0,
+        "label": "helmet"
+      },
+      {
+        "bbox": [939.916259765625, 164.532470703125, 1073.24084472656, 271.499237060547],
+        "confidence": 0.609368920326233,
+        "class_id": 0,
+        "label": "helmet"
+      }
+    ],
+    "processed_frame_url": "N/A (Processed by SageMaker)",
+    "annotated_frame_s3_uri": "s3://safesite-ai-raw-videos-dev-mumbai/annotated-frames/20251112_100849_Manufacturing_Plant_Video_Generation.mp4/frame_00001.jpg",
+    "outlier_detected": false,
+    "outlier_reason": null
+  }

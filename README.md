@@ -27,4 +27,4 @@ SafeSite AI was built by a dedicated four-person team, with responsibilities div
 * **Jeevesh Chaurasiya** - *Full-Stack Architecture, Cloud Computing & DevOps*
 * **Riya Bajpai** - *Machine Learning & Computer Vision*
 * **Mohd. Nazeeb Mansoori** - *Backend Development*
-* **farhaan Ansari** - *Frontend Developer*
+* **farhaan Ansari** - *Frontend Development*

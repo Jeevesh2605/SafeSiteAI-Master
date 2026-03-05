@@ -1,0 +1,19 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="innerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A0D7FF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#A0D7FF" stop-opacity="0.1"/>
+    </radialGradient>
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00"/>
+      <stop offset="50%" stop-color="#FF2CAB"/>
+      <stop offset="100%" stop-color="#A54CFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer glowing ring -->
+  <circle cx="60" cy="60" r="40" stroke="url(#ringGradient)" stroke-width="10" fill="none"/>
+
+  <!-- Inner soft glow -->
+  <circle cx="60" cy="60" r="20" fill="url(#innerGlow)"/>
+</svg>

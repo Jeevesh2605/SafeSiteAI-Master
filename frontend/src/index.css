@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+
+/* Gradient background + glow animation */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 122, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 122, 0, 0.8);
+  }
+}
+
+.glow-button:hover {
+  animation: pulse-glow 1.5s infinite;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(at center bottom, #4b2e02, #290A51);
+  /* background: #000000; */
+  color: white;
+  font-family: 'Poppins';
+  animation: gentleFloat 25s ease-in-out infinite;
+}
+body::after{
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(at center bottom, rgba(113, 71, 8, 0.4), rgba(41, 10, 81, 0.8));
+  z-index: -10;
+  pointer-events: none;
+  animation: subtleDrift 60s linear infinite;
+}
+/* z-index: -10;
+  background: #714708;
+  background: radial-gradient(at center bottom, #714708, #290A51); */
+
+@keyframes subtleDrift {
+  0% {
+    transform: rotate(0deg) translateX(0px);
+  }
+  50% {
+    transform: rotate(180deg) translateX(10px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(0px);
+  }
+}
+
+
+@keyframes gentleFloat {
+  0%,
+  100% {
+    transform: translateY(0px) translateX(0px);
+  }
+  25% {
+    transform: translateY(-15px) translateX(5px);
+  }
+  50% {
+    transform: translateY(-8px) translateX(-3px);
+  }
+  75% {
+    transform: translateY(-12px) translateX(2px);
+  }
+}

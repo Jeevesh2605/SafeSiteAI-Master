@@ -1,0 +1,39 @@
+.particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background: radial-gradient(circle, #ff00cc 0%, #ff9a00 40%, transparent 70%);
+  opacity: 0.9;
+  filter: blur(2px);
+  animation: moveParticle linear infinite;
+}
+
+@keyframes moveParticle {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translate(
+      calc(200px - 400px * random()),
+      calc(200px - 400px * random())
+    ) scale(0.8);
+    opacity: 0.2;
+  }
+}
+
+/* Fallback motion (CSS doesn’t support random() natively) */
+@keyframes moveParticle {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--move-x, 300px), var(--move-y, -250px)) scale(0.6);
+    opacity: 0.2;
+  }
+}
